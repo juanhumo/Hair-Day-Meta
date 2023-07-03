@@ -443,15 +443,12 @@ footer {
     .promotions {flex-direction: column; text-align: center;}
     .promotions article {max-width: 100%; padding: 10px 0; margin: 5px 0;}
     .image_container {width: 90vw;}
-    
-    
-
 
     .booking_image_container {display: none;}
     .booking_form_image_container {justify-content: center;}
-    .contact_name, .email, .subject, .message {width: 80vw;}
-    
-    .copyright {font-size: 1rem; font-weight: 600; color: #ffe4c4;}
+    .contact_name, .email, .subject, .message {width: 78vw;}
+    .message {width: 78vw; height: 200px;}
 
+    .copyright {font-size: 1rem; font-weight: 600; color: #ffe4c4;}
 }
 /*-------------------------------------------------------------------------*/
