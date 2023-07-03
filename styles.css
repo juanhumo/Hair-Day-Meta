@@ -445,6 +445,7 @@ footer {
     .image_container {width: 90vw;}
 
     #booking {padding-top: 15px;}
+    #booking > h1 {margin: 15px auto 10px auto;}
     .booking_image_container {display: none;}
     .booking_form_image_container {justify-content: center;}
     .contact_name, .email, .subject {width: 78vw; height: 45px;}
