@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hair coloring styling nails and makeup saloon home page">
+    <meta name="author" content="Hair day">
+    <script src="https://kit.fontawesome.com/96d279d30a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Hair Day</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav_bar_icon" onclick="deployNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="" id="nav_bar_links">
+            <li><a href="#home" onclick="hideNavbar()">HOME</a></li>
+            <li><a href="#about" onclick="hideNavbar()">ABOUT</a></li>
+            <li><a href="#promotions_info" onclick="hideNavbar()">PROMOTIONS</a></li>
+            <li><a href="styles.html">STYLES</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="#booking" onclick="hideNavbar()">BOOKING</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="presentation">
+            <img src="images/Artboard 19.png" alt="Brand Logo">
+            <p>Come to relax and leave<br>looking <span>JUST FABULOUS</span></p>
+            <a href="#booking">BOOK NOW</a>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="about">
+            <img src="images/about_stylists.jpg" alt="stylists picture" class="about_img_large">
+            <div class="about_text_container">
+                <h1>We are a group of stylist</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minus adipisci commodi, dolores
+                    consequatur saepe amet nisi sapiente eveniet suscipit itaque quisquam perferendis ipsum numquam
+                    sequi ipsa quaerat ad quo. Consequuntur dicta vel quas natus saepe mollitia sequi sit
+                    exercitationem! Ad tempora animi iure itaque molestias ullam et autem, quia temporibus illo labore
+                    deserunt! Doloribus, asperiores perspiciatis. Inventore tempore nobis corporis expedita consequatur,
+                    debitis minus optio temporibus porro natus aliquam?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, doloremque tempora. Fugit iusto
+                    illum earum facere cumque, dicta accusamus architecto impedit laborum eligendi alias excepturi eaque
+                    expedita tenetur! Atque, debitis.</p>
+                <div class="about_img_medium_container">
+                    <img src="images/about_stylists_medium.jpg" alt="stylists picture" class="about_img_medium">
+                </div>
+                <div class="about_icons_container">
+                    <div onclick="showPopup('history_popup')">
+                        <img src="Icons/poem_3320611 (1).png" alt="History Icon">
+                        <p>Our History</p>
+                    </div>
+                    <div onclick="showPopup('values_popup')">
+                        <img src="Icons/heart_8568573 (1).png" alt="Values Icon">
+                        <p>Our Values</p>
+                    </div>
+                    <div onclick="showPopup('staff_popup')">
+                        <img src="Icons/people-together_4596368 (1).png" alt="Staff Icon">
+                        <p>Our Staff</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup" id="history_popup">
+                <h1>OUR HISTORY</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
+                    fugit nesciunt pariatur qui adipisci, deserunt debitis vero et placeat facilis. Magni recusandae
+                    maiores
+                    quas illo, dolor cumque, voluptatem nostrum nesciunt id molestiae consequatur animi dolorum nihil
+                    hic,
+                    illum corporis. Aspernatur quod beatae cumque dolor alias. Sunt omnis maiores quod deleniti.
+                </p>
+                <button onclick="closePopup('history_popup')">CLOSE</button>
+            </div>
+            <div class="popup" id="values_popup">
+                <h1>OUR VALUES</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
+                    fugit nesciunt pariatur qui adipisci, deserunt debitis vero et placeat facilis. Magni recusandae
+                    maiores
+                    quas illo, dolor cumque, voluptatem nostrum nesciunt id molestiae consequatur animi dolorum nihil
+                    hic,
+                    illum corporis. Aspernatur quod beatae cumque dolor alias. Sunt omnis maiores quod deleniti.
+                </p>
+                <button onclick="closePopup('values_popup')">CLOSE</button>
+            </div>
+            <div class="popup" id="staff_popup">
+                <h1>OUR STAFF</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
+                    fugit nesciunt pariatur qui adipisci, deserunt debitis vero et placeat facilis. Magni recusandae
+                    maiores
+                    quas illo, dolor cumque, voluptatem nostrum nesciunt id molestiae consequatur animi dolorum nihil
+                    hic,
+                    illum corporis. Aspernatur quod beatae cumque dolor alias. Sunt omnis maiores quod deleniti.
+                </p>
+                <button onclick="closePopup('staff_popup')">CLOSE</button>
+            </div>
+        </section>
+
+        <section id="promotions_info">
+            <article>
+                <h1>PROMOTIONS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, necessitatibus. Repudiandae
+                    reiciendis perspiciatis voluptate itaque tenetur quaerat doloremque esse sunt. Quidem odit
+                    dignissimos perferendis inventore ad error reiciendis accusantium. Corporis quisquam non quod, est
+                    similique eligendi tenetur cumque temporibus quas voluptas ea, iste corrupti unde quis at quasi
+                    nostrum eius consectetur dignissimos architecto magni dolore perferendis? Veritatis dicta illo
+                    debitis rem tempore accusamus sunt nihil, aspernatur distinctio consequatur saepe at, maxime iusto
+                    provident. Rerum, ab quaerat sapiente unde minus possimus laborum quis est illum molestias, beatae
+                    incidunt tempora! Accusamus necessitatibus odit nisi id quidem, libero illum soluta quos quia modi.
+                </p>
+            </article>
+        </section>
+        <section class="promotions">
+            <article>
+                <div class="image_container">
+                    <img src="images/promotions_cut_and_style.png" alt="cut and styling promotion">
+                    <div class="background_container"></div>
+                </div>
+                <h2>Hair styling session</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim accusantium molestias culpa voluptatum
+                    laboriosam cum minus iure deleniti recusandae, facilis suscipit. Deleniti vitae quisquam aut
+                    blanditiis perferendis labore totam
+                </p>
+            </article>
+            <article>
+                <div class="image_container">
+                    <img src="images/promotions_manicure.jpg" alt="nails promotion">
+                    <div class="background_container"></div>
+                </div>
+                <h2>Manicure session</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis enim eius atque animi
+                    similique maiores nam inventore, dicta quae perspiciatis pariatur possimus, consectetur neque illo
+                    tempore quisquam voluptatum dolorum!
+                </p>
+            </article>
+            <article>
+                <div class="image_container">
+                    <img src="images/promotions_makeup.jpg" alt="makeup promotion">
+                    <div class="background_container"></div>
+                </div>
+                <h2>Makeup session</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae dolorum rem magni, neque
+                    repudiandae eum quam voluptatum excepturi quisquam vero molestiae pariatur eaque vel explicabo fuga.
+                    Ut est ipsam repellendus!
+                </p>
+            </article>
+        </section>
+
+        <section id="styles"></section>
+        <section id="pricing"></section>
+
+        <section id="booking">
+            <h1>BOOK A VISIT</h1>
+            <div class="booking_form_image_container">
+                <div class="form_container">
+                    <form action="" method="POST">
+                        <div class="contact_name">
+                            <input type="text" placeholder="  Contact Name" class="contact_name" name="name" required>
+                        </div>
+                        <div class="email">
+                            <input type="email" placeholder="  Your e-mail" class="email" name="email" required>
+                        </div>
+                        <div class="subject">
+                            <input type="text" placeholder="  Subject" class="subject" name="subject" required>
+                        </div>
+                        <div class="message">
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="  Your message" class="message" spellcheck="true" lang="en"></textarea>
+                        </div>
+                        <input type="submit" id="send_message" value="Send message" class="send_message" onclick="sendAndAlert()">
+                    </form>
+                </div>
+                <div class="booking_image_container">
+                    <img src="images/Booking_hands_nails.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_logo">
+            <img src="images/Artboard 22.png" alt="Brand Logo">
+        </div>
+        <div class="copyright">&copy; Copyright 2023 Hair Day. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
