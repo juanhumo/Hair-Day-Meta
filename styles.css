@@ -444,7 +444,7 @@ footer {
     .promotions article {max-width: 100%; padding: 10px 0; margin: 5px 0;}
     .image_container {width: 90vw;}
 
-    #booking {padding-top: 15px;}
+    #booking {padding-top: 15px; justify-content: space-evenly;}
     #booking > h1 {margin: 15px auto 10px auto;}
     .booking_image_container {display: none;}
     .booking_form_image_container {justify-content: center;}
